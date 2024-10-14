@@ -3,12 +3,12 @@
 ### Environment
 - Python >= 3.8
 - PyTorch == 1.12.1
-- Detailed requirements can be refered to 'requirements.txt'
+- pip install -r requirements.txt
 
 ### Training
 - Set configurations in '/transit/cfg/{}.yaml'
-- Run '/transit/train.py' for model training
+- python /transit/train.py
 
 ### Testing
 - Set 'root_dir' as the folder that saved the trained model
-- Run '/transit/test.py' for testing results
+- python /transit/eval.py
