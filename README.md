@@ -1,5 +1,7 @@
 # GAGRL
 
+This is the implementation of the paper "Optimizing Transit Network Expansion with ​Gated Attentive Graph Reinforcement Learning​."
+
 ### Environment
 - Python >= 3.8
 - PyTorch == 1.12.1
